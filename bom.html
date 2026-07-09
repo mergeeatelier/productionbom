@@ -63,17 +63,17 @@ td{padding:8px;border-bottom:1px solid #eee;vertical-align:top}
 </head>
 <body>
 
-<div id="password-gate" style="position:fixed;inset:0;background:#1a1a2e;display:flex;align-items:center;justify-content:center;z-index:9999;padding:24px">
-  <div style="background:#fff;border-radius:20px;padding:40px 32px;max-width:400px;width:100%;text-align:center">
-    <div style="font-size:32px;font-weight:600;color:#1a1a2e;margin-bottom:4px">Mergee</div>
-    <div style="font-size:22px;font-weight:600;color:#1a1a2e;margin-bottom:20px">Bill of Materials (BOM)</div>
-    <div style="font-size:16px;color:#888;margin-bottom:20px">Enter password to continue</div>
+<div id="password-gate" style="position:fixed;inset:0;background:#1a1a2e;display:flex;align-items:center;justify-content:center;z-index:9999;padding:20px">
+  <div style="background:#fff;border-radius:16px;padding:28px 24px;max-width:320px;width:100%;text-align:center">
+    <div style="font-size:24px;font-weight:600;color:#1a1a2e;margin-bottom:4px">Mergee</div>
+    <div style="font-size:17px;font-weight:600;color:#1a1a2e;margin-bottom:14px">Bill of Materials (BOM)</div>
+    <div style="font-size:13px;color:#888;margin-bottom:14px">Enter password to continue</div>
     <input type="password" id="gate-password" placeholder="Password" autocomplete="off"
-      style="width:100%;padding:16px;border:1px solid #ddd;border-radius:12px;font-family:'Sarabun',sans-serif;font-size:18px;margin-bottom:16px;text-align:center"
+      style="width:100%;padding:11px 12px;border:1px solid #ddd;border-radius:10px;font-family:'Sarabun',sans-serif;font-size:14px;margin-bottom:12px;text-align:center"
       onkeydown="if(event.key==='Enter') checkGatePassword()">
     <button onclick="checkGatePassword()"
-      style="width:100%;background:#1a1a2e;color:#fff;border:none;border-radius:12px;padding:16px;font-family:'Sarabun',sans-serif;font-size:18px;font-weight:600;cursor:pointer">Enter</button>
-    <div id="gate-error" style="color:#c62828;font-size:13px;margin-top:10px;display:none">Incorrect password</div>
+      style="width:100%;background:#1a1a2e;color:#fff;border:none;border-radius:10px;padding:12px;font-family:'Sarabun',sans-serif;font-size:14px;font-weight:600;cursor:pointer">Enter</button>
+    <div id="gate-error" style="color:#c62828;font-size:12px;margin-top:8px;display:none">Incorrect password</div>
   </div>
 </div>
 
